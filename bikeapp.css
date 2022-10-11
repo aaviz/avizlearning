@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.ficaDoLado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(134, 134, 134);
+}
+
+.iconeHeader{
+    width: 50px;
+    height: 65px;
+}
+
+.tiraBolinha{
+    list-style: none;
+    margin: 0px 15px;
+}
+
+.listaHorizontalHeader{
+    display: flex;
+font-family: "Montserrat";
+}
+
+.tamanhoImgPrincipal{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.textoNaImg1{
+    position: relative;
+
+}
+
+.posiçaoTextoh1{
+position: absolute;
+top: 50%;
+left: 13%;
+color: blanchedalmond;
+font-family: "Montserrat";
+}
+
+.tamanhoDeocu{
+    font-size: 16px;
+}
+
+.raspaBotao{
+    font-size: 20px;
+    color: blanchedalmond;
+    font-family: "Montserrat";
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
